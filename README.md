@@ -40,13 +40,13 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when ...during curves the left/right lanes are moving over to the road
 
-Another shortcoming could be ...
+Another shortcoming could be ...region masking is fixed by co-ordinates, hence not working during bends
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to ...improve lane detections in the draw lanes function...so it will work for curves
 
-Another potential improvement could be to ...
+Another potential improvement could be to ...improve region masking
