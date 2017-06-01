@@ -29,7 +29,12 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-[solidWhiteCurve] ./test_images/solidWhiteCurve.jpg
+
+![solidwhitecurve](https://cloud.githubusercontent.com/assets/15799394/26694711/fdeb14de-4725-11e7-908d-40b413ab121c.jpg)
+![solidwhiteright](https://cloud.githubusercontent.com/assets/15799394/26694712/ffd88e02-4725-11e7-8c6d-9ad0a28919c9.jpg)
+![solidyellowcurve](https://cloud.githubusercontent.com/assets/15799394/26694714/026d12c8-4726-11e7-9d2c-64f21e63b3e4.jpg)
+![solidyellowleft](https://cloud.githubusercontent.com/assets/15799394/26694720/08d8aec4-4726-11e7-8d75-d43f69b7f524.jpg)
+![whitecarlaneswitch](https://cloud.githubusercontent.com/assets/15799394/26694728/0c2a73d2-4726-11e7-80cd-9c425aaa4881.jpg)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
