@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied gaussian blur after with i performed canny edge detection. I then chose region of interest (defined by the verices of a polygon )and finally applied hough transformation.
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied gaussian blur after with i performed canny edge detection. I then chose region of interest (defined by the vertices of a polygon )and finally applied hough transformation.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...finding slopes of each line to classify them into left and right lanes. I took the average slope and intercept for each segment(left and right) and then used the average values to extrapolate the left and right lanes.
 
@@ -40,7 +40,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ...during curves the left/right lanes are moving over to the road
+One potential shortcoming would be ...during curves the left/right lanes are moving over to the road
 
 Another shortcoming could be ...region masking is fixed by co-ordinates, hence not working during bends
 
